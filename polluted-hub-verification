@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Polluted Hub Verification Process</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; background: #23272a; color: #fff; text-align: center; padding: 40px; }
+        .container { background: #2c2f33; border-radius: 10px; padding: 30px; max-width: 400px; margin: 60px auto; }
+        h1 { color: #7289da; }
+        .btn {
+            background: #7289da;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .btn:hover { background: #5b6eae; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Polluted Hub Verification Process</h1>
+        <p>To access the Discord server, please verify your account.</p>
+        <a class="btn" href="https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&redirect_uri=YOUR_REDIRECT_URI&response_type=code&scope=identify">
+            Verify with Discord
+        </a>
+        <p style="margin-top:30px;font-size:0.9em;color:#aaa;">If you have issues, contact a staff member.</p>
+    </div>
+</body>
+</html>
